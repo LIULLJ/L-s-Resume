@@ -1,145 +1,366 @@
-<!DOCTYPE html>
-<html lang="utf-8">
+<!doctype html>
+<html>
 <head>
-	<meta charset="utf-8">
-	<title>L's Resume</title>
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/font-awesome.min.css">
-	<link rel="stylesheet" href="css/templatemo-blue.css">
-
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, maximum-scale=1">
+<title>Home</title>
+<link rel="icon" href="favicon.png" type="image/png">
+<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="js/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+<link href="css/style.css" rel="stylesheet" type="text/css"> 
+<link href="css/font-awesome.css" rel="stylesheet" type="text/css"> 
+<link href="css/animate.css" rel="stylesheet" type="text/css">
+ 
+<!--[if lt IE 9]>
+    <script src="js/respond-1.1.0.min.js"></script>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/html5element.js"></script>
+<![endif]-->
+ 
 </head>
-<body data-spy="scroll" data-target=".navbar-collapse">
+<body>
 
-<!-- preloader section -->
-<div class="preloader">
-	<div class="sk-spinner sk-spinner-wordpress">
-       <span class="sk-inner-circle"></span>
-     </div>
-</div>
-<header>
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12 col-sm-12">
-				<img src="images/photo.jpg" class="img-responsive img-circle tm-border" alt="templatemo easy profile">
-				<hr>
-				<h1 class="tm-title bold shadow">Hi, 我是刘龙龙</h1>
-			</div>
-		</div>
-	</div>
+<!--Hero_Section-->
+<section id="hero_section" class="top_cont_outer">
+  <div class="hero_wrapper">
+   
+
+            <div class="card hovercard">
+                <div class="cardheader">
+
+                </div>
+                <div class="avatar">
+                    <img alt="" src="img/photo.jpg">
+                </div>
+                <div class="info">
+                    <div class="title">
+                        <a target="_blank" href="">Hi 我是刘龙龙</a>
+                    </div>
+                    <div class="desc"><b>Android APP DEVELOPER</B></div>
+                    
+            
+                </div>
+                <div class="bottom">
+                        <div class="underline"></div>             
+              <ul class="social_links">
+            
+            <li class="pinterest animated bounceIn wow delay-04s animated" style="visibility: visible; animation-name: bounceIn;"><a href="https://github.com/LIULLJ/L-s-Resume"><i class="fa fa-github"></i></a></li>
+           
+          </ul> 
+                </div>
+            </div>
+ 
+
+  </div>
+</section>
+<!--Hero_Section--> 
+
+<!--Header_section-->
+<header id="header_wrapper">
+  <div class="container">
+    <div class="header_box">
+    <!--  <div class="logo"><a href="#"><img src="img/logo.png" alt="logo"></a></div>-->
+	  <nav class="navbar navbar-inverse" role="navigation">
+      <div class="navbar-header">
+        <button type="button" id="nav-toggle" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+        </div>
+	    <div id="main-nav" class="collapse navbar-collapse navStyle">
+			<ul class="nav navbar-nav" id="mainNav">
+			  <li class="active"><a href="#hero_section" class="scroll-link">主页</a></li>
+			  <li><a href="#aboutUs" class="scroll-link">关于</a></li>
+			  <li><a href="#service" class="scroll-link">技能</a></li>
+			  <li><a href="#experience" class="scroll-link">经验</a></li>
+			  
+			 
+			  <li><a href="#contact" class="scroll-link">联系方式</a></li>
+			</ul>
+      </div>
+	 </nav>
+    </div>
+  </div>
 </header>
+<!--Header_section--> 
 
-<!-- about and skills section -->
-<section class="container">
-	<div class="row">
-		<div class="col-md-6 col-sm-12">
-			<div class="about">
-				<h3 class="accent">简简单单</h3>
-				<h2>喜欢简约的风格</h2>
-				<p>人永远不要忘记自己第一天的梦想，你的梦想是世界上最伟大的事情，就是帮助别人成功。</p>
-			</div>
-		</div>
-		<div class="col-md-6 col-sm-12">
-			<div class="skills">
-				<h2 class="white">技能</h2>
-				<strong>MySQL</strong>
-				<span class="pull-right">70%</span>
-					<div class="progress">
-						<div class="progress-bar progress-bar-primary" role="progressbar" 
-                        aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;"></div>
+<section id="aboutUs"><!--Aboutus-->
+<div class="inner_wrapper aboutUs-container fadeInLeft animated wow">
+  <div class="container">
+    <h2>About Me</h2>
+	
+    <div class="inner_section"> 
+	  <div class="row">
+						<div class="col-lg-12 about-us">
+							<div class="row">
+								<div class="col-md-6">
+									<h3>我是一个有梦想的人</h3>
+									
+									<p>
+										 没事的时候多看看书，应该跟的上时代的发展，即使这很难。
+									</p>
+									<ul class="about-us-list">
+										<li class="points">一个人围着一件事转，最后全世界可能都会围着你转；一个人围着全世界转，最后全世界可能都会抛弃你。——刘东华</li>
+										<li class="points">互联网像一杯啤酒，有沫的时候最好喝。——马云 </li>
+										<li class="points">任何时候做任何事，订最好的计划，尽最大的努力，作最坏的准备。——李想</li>
+                                        <li class="points">登高莫问顶，途中耳目新。——潘刚</li>
+										<li class="points">站在互联网风口上，猪都能飞上天。———雷军</li>
+									</ul><!-- /.about-us-list -->
+								 
+								</div><!-- /.col-md-6 -->
+								
+							<div class="col-md-6"> <br/>
+							<br/><br/>
+							        <div class="barWrapper">
+									 <span class="progressText"><B>HTML5</B></span>
+									<div class="progress">
+									  <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" >   
+											<span  class="popOver" data-toggle="tooltip" data-placement="top" title="80%"> </span>     
+									</div>
+									</div>
+
+									<div class="barWrapper">
+									 <span class="progressText"><B>Android</B></span>
+									<div class="progress ">
+									  <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="10" aria-valuemax="100" style="">
+										 <span  class="popOver" data-toggle="tooltip" data-placement="top" title="55%"> </span>  
+									  </div>
+									  
+									</div>
+									</div>
+
+									<div class="barWrapper">
+									 <span class="progressText"><B>Java</B></span>
+									<div class="progress">
+									  <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">
+										 <span  class="popOver" data-toggle="tooltip" data-placement="top" title="65%"> </span>  
+									  </div>
+									</div>
+									</div>
+									<div class="barWrapper">
+									 <span class="progressText"><B>MySQL</B></span>
+									<div class="progress">
+									  <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+											 <span  class="popOver" data-toggle="tooltip" data-placement="top" title="85%"> </span>  
+									  </div>
+									</div>
+									</div> 
+
+									</div>
+							</div><!-- /.col-md-6 -->
+							</div><!-- /.row -->	
+						</div><!-- /.col-lg-12 -->
 					</div>
-				<strong>HTML5</strong>
-				<span class="pull-right">85%</span>
-					<div class="progress">
-						<div class="progress-bar progress-bar-primary" role="progressbar" 
-                        aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%;"></div>
-					</div>
-				<strong>Java</strong>
-				<span class="pull-right">65%</span>
-					<div class="progress">
-						<div class="progress-bar progress-bar-primary" role="progressbar" 
-                        aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width: 65%;"></div>
-					</div>
-			</div>
-		</div>
-	</div>
+      
+    </div>
+  </div> 
+  </div>
 </section>
+<!--Aboutus--> 
 
-<!-- education and languages -->
-<section class="container">
-	<div class="row">
-		<div class="col-md-8 col-sm-12">
-			<div class="education">
-				<h2 class="white">教育</h2>
-					<div class="education-content">
+
+<!--Service-->
+<section  id="service">
+  <div class="container">
+    <h2>技能</h2>
+	
+    <div class="service_wrapper" style="margin-left: 250px;">
+      <div class="row">
+        <div class="col-md-3">
+		<div class="service_icon delay-03s animated wow  zoomIn"> <span><i class="fa fa-android"></i></span> </div>
+          <div class="service_block">
+            
+            <h3 class="animated fadeInUp wow">Android</h3>
+            <p>
+            	安卓的强大和便利，以及其很厉害的自由性，我觉得几十年内之年安卓不会没落
+            </p>
+          </div>
+        </div>
+        <!--<div class="col-md-3"> 
+		<div class="service_icon icon2  delay-03s animated wow zoomIn"> <span><i class="fa fa-MySqlk"></i></span> </div> 
+		<div class="service_block">
+            <h3 class="animated fadeInUp wow">Apple IOS</h3>
+            <p class="animated fadeInDown wow">Lorem Ipsum is simply dummy text of the printing and typesetting industry.  </p>
+          </div>
+        </div>-->
+        <div class="col-md-3">
+		<div class="service_icon icon3  delay-03s animated wow zoomIn"> <span><i class="fa fa-html5"></i></span> </div>
+          <div class="service_block">
+            
+            <h3 class="animated fadeInUp wow">HTML5</h3>
+            <p class="animated fadeInDown wow">好好学，玩的好了能撩妹 </p>
+          </div>
+        </div>
+		  <div class="col-md-3">
+		<div class="service_icon icon3  delay-03s animated wow zoomIn"> <span><i class="fa fa-user"></i></span> </div>
+          <div class="service_block">
+            
+            <h3 class="animated fadeInUp wow">MySQL</h3>
+            <p class="animated fadeInDown wow">基础，未来大数据时代的基础 </p>
+          </div>
+        </div>
+      </div> 
+    </div>
+  </div>
+</section>
+<!--Service-->
+
+
+ 
+
+<section id="experience" class="timeline">
+	
+<div class="container">
+	 <h2>经验里程</h2>
+	
+    <div class="qa-message-list" id="wallmessages">
 					
-							<div class="education-school">
-								<h5>学校:郑职院</h5><span></span>
-								<h5>2016-09至2019-06</h5>
+					<div class="message-item" id="m3">
+						<div class="message-inner">
+							<div class="message-head clearfix"> 
+								<div class="user-detail">
+									<h5 class="handle">Android APP</h5>
+									<div class="post-meta">
+										<div class="asker-meta">
+											<span class="qa-message-what"></span>
+											<span class="qa-message-when">
+												<span class="qa-message-when-data">2012.09.25</span>
+											</span> 
+										</div>
+									</div>
+								</div>
 							</div>
-						<p class="education-description">爱学习，爱生活，爱自由，天天向上</p>
-					</div>
-			</div>
-		</div>
-		<div class="col-md-4 col-sm-12">
-			<div class="languages">
-				<h2>语言</h2>
-					<ul>
+							<div class="qa-message-content">
+							当时是使用的IAPP语言，一门非官方正统语言，写下了人生中第一个APP，虽然写的很拙劣，但是我还是喜欢上了程序设计。
+							</div>
+					</div></div>
 					
-						<li>English</li>
-						<li>Chinese</li>
-						<li>河南濮阳方言</li>
-					</ul>
-			</div>
-		</div>
-	</div>
+					<div class="message-item" id="m2">
+						<div class="message-inner">
+							<div class="message-head clearfix"> 
+								<div class="user-detail">
+									<h5 class="handle">花店注册页面</h5>
+									<div class="post-meta">
+										<div class="asker-meta">
+											<span class="qa-message-what"></span>
+											<span class="qa-message-when">
+												<span class="qa-message-when-data">2016.06.09</span>
+											</span> 
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="qa-message-content">
+							利用这次经历，还系统的复习了学习的课程，知道了自己还有很多不足之处，以后会多加努力。	
+							</div>
+					</div></div>
+					
+					<div class="message-item" id="m1">
+						<div class="message-inner">
+							<div class="message-head clearfix"> 
+								<div class="user-detail">
+									<h5 class="handle">个人简历</h5>
+									<div class="post-meta">
+										<div class="asker-meta">
+											<span class="qa-message-what"></span>
+											<span class="qa-message-when">
+												<span class="qa-message-when-data">2017.06.14</span>
+											</span> 
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="qa-message-content">
+							最后就是这个简历了，做的不好，还请见谅。	
+							</div>
+					</div></div>
+					
+				</div>
+</div>
 </section>
+		  
 
-<!-- contact and experience -->
-<section class="container">
-	<div class="row">
-		<div class="col-md-4 col-sm-12">
-			<div class="contact">
-				<h2>联系方式</h2>
-					<p><i class="fa fa-map-marker"></i>移动电话：18339355729</p>
-					
-					<p><i class="fa fa-envelope"></i> 主要邮箱：193382338@qq.com</p>
-					<p><i class="fa fa-globe"></i> 备用邮箱:a785125@Outlook.com</p>
-			</div>
-		</div>
-		<div class="col-md-8 col-sm-12">
-			<div class="experience">
-				<h2 class="white">经验</h2>
-					<div class="experience-content">
-						<h4 class="experience-title accent">刚毕业，经验不足</h4>
-						<h5>大学期间</h5><span></span>
-						<h5>2016-09至2019-06</h5>
-						<p class="education-description">毕业设计算不算？o(^▽^)o</p>
-					</div>
-			</div>
-		</div>
-	</div>
-</section>
 
-<!-- footer section -->
-<footer>
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12 col-sm-12">
-				<p>Copyright &copy; 2017 My Easy Profile</p>
-				<ul class="social-icons">
-					<li><a href="https://github.com/LIULLJ/L-s-Resume" class="fa fa-github"></a></li>
-					
-				</ul>
-			</div>
+<!--/Team-->
+<!--Footer-->
+<footer class="footer_wrapper" id="contact">
+  <div class="container">
+    <section class="page_section contact" id="contact">
+      <div class="contact_section">
+        <h2>联系方式</h2>
+	
+     
+      </div>
+      <div class="row">
+        <div class="col-lg-4 wow fadeInLeft">	
+		 <div class="contact_info">
+                            <div class="detail">
+                                <h4>住址</h4>
+                                <p>河南省  郑州  郑职院</p>
+                            </div>
+                            <div class="detail">
+                                <h4>QQ</h4>
+                                <p>193382338</p>
+                            </div>
+                            <div class="detail">
+                                <h4>Email us</h4>
+                                <p>193382338@qq.com</p>
+                            </div> 
+                        </div>
+       		  
+			  
+          
+       
+              </div>
+        <div class="col-lg-8 wow fadeInLeft delay-06s">
+         	  <!--NOTE: Update your email Id in "contact_me.php" file in order to receive emails from your contact form-->
+        
+		<form name="sentMessage" id="contactForm"  novalidate> 
+		 <div class="control-group">
+                    <div class="controls">
+			<input type="text" class="form-control" 
+			   	   placeholder="姓名" id="name" required
+			           data-validation-required-message="Please enter your name" />
+			  <p class="help-block"></p>
+		   </div>
+	         </div> 	
+                <div class="control-group">
+                  <div class="controls">
+			<input type="email" class="form-control" placeholder="邮箱" 
+			   	            id="email" required
+			   		   data-validation-required-message="Please enter your email" />
 		</div>
-	</div>
+	    </div> 	
+			  
+               <div class="control-group">
+                 <div class="controls">
+				 <textarea rows="10" cols="100" class="form-control" 
+                       placeholder="正文" id="message" required
+		       data-validation-required-message="Please enter your message" minlength="5" 
+                       data-validation-minlength-message="Min 5 characters" 
+                        maxlength="999" style="resize:none"></textarea>
+		</div>
+               </div> 		 
+	     <div id="success"> </div> <!-- For success/fail messages -->
+	    <button type="submit" class="btn btn-primary pull-right">发送</button><br />
+          </form>
+        </div>
+      </div>
+    </section>
+  </div>
+  <div class="container">
+    <div class="footer_bottom"><span>Copyright &copy; 2017.Company name All rights reserved.</span> </div>
+  </div>
 </footer>
 
-<!-- javascript js -->	
-<script src="js/jquery.js"></script>
-<script src="js/bootstrap.min.js"></script>	
-<script src="js/jquery.backstretch.min.js"></script>
-<script src="js/custom.js"></script>
+<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/jquery-scrolltofixed.js"></script>
+<script type="text/javascript" src="js/jquery.nav.js"></script> 
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="js/jquery.isotope.js"></script>
+<script src="js/fancybox/jquery.fancybox.pack.js" type="text/javascript"></script> 
+<script type="text/javascript" src="js/wow.js"></script> 
+ <script src="contact/jqBootstrapValidation.js"></script>
+ <script src="contact/contact_me.js"></script>
+<script type="text/javascript" src="js/custom.js"></script>
 
 </body>
 </html>
